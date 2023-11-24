@@ -1,0 +1,72 @@
+.button.visit {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+
+    text-align: center;
+
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.button.visit:hover {
+    color: black;
+}
+
+.button.visit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    /* Start from the left */
+    width: 100%;
+    height: 100%;
+
+
+    transition: left 0.5s;
+    /* Animation duration */
+    z-index: -1;
+}
+
+.button.visit:hover::before {
+    left: 0;
+
+    /* Move the pseudo-element to cover the button */
+}
+
+
+/* Ensuring the content of the button is above the pseudo-element */
+.button.visit {
+    position: relative;
+    z-index: 1;
+}
+
+
+.beakers-bog .button.visit::before {
+    background-color: #D084FF;
+}
+
+.project-container.beakers-bog .button.visit {
+    border-color: #D084FF;
+}
+
+
+.button.visit {
+    border-width: 2px;
+}
+
+.quiz-wiz .button.visit::before {
+    background-color: #7CE593;
+}
+
+.project-container.quiz-wiz .button.visit {
+    border-color: #7CE593;
+}
+
+.quests .button.visit::before {
+    background-color: #7AD3EF;
+}
+
+.quests .button.visit {
+    border-color: #7AD3EF;
+}
