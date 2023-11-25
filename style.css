@@ -16,24 +16,57 @@ main {
 }
 
 h1 {
-    font-size: 40;
+    font-size: 56px;
     color: black;
     font-weight: 800;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
+    padding-left: 72px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-left: 72px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 300;
     margin: 0;
     margin-bottom: 10px;
 }
 
-h3 {
+h4 {
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1px;
+}
+h5 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 40px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+p1 {
     font-size: 24px;
     font-family: Poppins;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -100,6 +133,20 @@ html {
 .project-container-right {
     float: left;
     display: flex;
+}
+
+.design-for-games-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.ui-art-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 100px;
 }
 
 .buttons {
