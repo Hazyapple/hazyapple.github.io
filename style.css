@@ -3,6 +3,11 @@ body {
     font-family: 'Prompt', sans-serif;
 }
 
+a {
+    all: unset;
+    cursor: pointer;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -165,6 +170,7 @@ html {
     margin: 5px;
     padding: 0 15px;
     height: 30px;
+    text-decoration: none;
 }
 
 /* ------ Project Specific ------ */
