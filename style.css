@@ -108,6 +108,13 @@ p4 {
     margin-bottom: 10px;
 }
 
+p5 {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}
 
 
 header {
@@ -221,6 +228,11 @@ html {
 }
 
 /* ------ Beakers Bog Page ------ */ 
+.mainbeakersbog {
+    background-color: #ffffff;
+    max-width: 1280px;
+    min-width: 1000px;
+} 
 
 .reseach {
     display: flex;
@@ -240,15 +252,11 @@ h8 {
 
 }
 
-h9 {
-    font-size: 32px;
-    font-family: Poppins;
-    font-weight: 700;
-    margin: 0;
-    margin-bottom: 1px;
-    padding-left: 50px;
-    padding-right: 50px;
-
+.targetaudience {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 0px;
 }
-
 
