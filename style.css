@@ -234,6 +234,10 @@ html {
     min-width: 1000px;
 } 
 
+.imagecakes {
+size: 80%;
+}
+
 .reseach {
     display: flex;
     flex-direction: row;
