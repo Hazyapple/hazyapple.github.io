@@ -51,6 +51,7 @@ h4 {
     font-weight: 700;
     margin: 0;
     margin-bottom: 1px;
+
 }
 h5 {
     font-size: 32px;
@@ -227,4 +228,27 @@ html {
     width: 100%;
     padding-left: 50px;
 }
+
+h8 {
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+h9 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
 
