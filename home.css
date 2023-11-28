@@ -29,6 +29,10 @@ a {
     padding: 40px;
 }
 
+.footer-style {
+    padding: 24px;
+}
+
 h10 {
     font-family: Prompt;
     font-size: 48px;
@@ -143,6 +147,7 @@ header a {
     width: 100%;
     display: flex;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .bigcontainer h6 {
@@ -152,10 +157,6 @@ header a {
 .bigcontainer img {
     object-fit: contain;
 }
-
-/* .bigcontainer h3 { */
-    /* padding-left: 16px; */
-/* } */
 
 .information {
     background-color: #2C2C2C;
@@ -232,11 +233,11 @@ header a {
     color: #D084FF;
 }
 
-.project-container.quiz-wiz h3 {
+.bigcontainer.quiz-wiz h3 {
     color: #7CE593;
 }
 
-.project-container.quests h3 {
+.bigcontainer.quests h3 {
     color: #7AD3EF;
 }
 
