@@ -1,20 +1,3 @@
-@media (max-width: 600px) {
-    .bigcontainer {
-        flex-direction: column-reverse;
-        height: 500px !important;
-    }
-
-    .bigcontainer .information {
-        width: 100% !important;
-    }
-
-    .bigcontainer .project-container-right {
-        width: 100%;
-        height: 200px;
-    }
-}
-
-
 body {
     background-color: white;
     font-family: 'Prompt', sans-serif;
@@ -38,12 +21,18 @@ a {
     cursor: pointer;
 }
 
+img.underline {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 65%;
     align-content: center;
-    padding: 40px;
+    margin: 40px 0
 }
 
 .footer-style {
@@ -55,7 +44,6 @@ h10 {
     font-size: 48px;
     color: black;
     font-weight: 700;
-    padding-left: 72px;
 }
 
 h2 {
@@ -63,7 +51,6 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 32px;
-    padding-left: 72px;
 }
 
 h3 {
@@ -256,4 +243,26 @@ header a {
     padding-top: 40px;
     padding-bottom: 0;
     margin-top: 64px;
+}
+
+@media (max-width: 600px) {
+    .bigcontainer {
+        flex-direction: column-reverse;
+        height: 500px !important;
+    }
+
+    .bigcontainer .information {
+        width: 100% !important;
+    }
+
+    .bigcontainer .project-container-right {
+        width: 100%;
+        height: 200px;
+    }
+
+    .intro {
+        width: 80%;
+        margin: 20px 0
+    }
+
 }
