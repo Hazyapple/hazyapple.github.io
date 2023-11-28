@@ -58,6 +58,8 @@
 
 .button.visit {
     border-width: 2px;
+    color: #e9e9e9;
+    font-weight: 200;
 }
 
 .quiz-wiz .button.visit::before {
