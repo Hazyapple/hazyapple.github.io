@@ -46,10 +46,15 @@
     background-color: #D084FF;
 }
 
+
 .project-container.beakers-bog .button.visit {
     border-color: #D084FF;
 }
 
+/* This is the new pink border for file home.html  */
+.bigcontainer.beakers-bog .button.visit {
+    border-color: #D084FF;
+}
 
 .button.visit {
     border-width: 2px;
