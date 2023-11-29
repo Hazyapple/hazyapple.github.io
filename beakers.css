@@ -53,7 +53,7 @@ main {
 /* FONTS */
 
 h4 {
-    font-size: 36px;
+    font-size: 32px;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: 16px;
@@ -69,7 +69,7 @@ p1 {
 }
 
 p2 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 400;
     margin: 0;
@@ -104,7 +104,7 @@ img.image-question {
     object-fit: cover;
     display: flex;
     width: 90%;
-    padding: 8px;
+    padding: 16px;
 }
 
 /* ""Findings" section cake containers */
