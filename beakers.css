@@ -43,7 +43,7 @@ main {
 .textbox {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     align-content: center;
     margin-bottom: 24px;
 }
@@ -53,7 +53,7 @@ main {
 /* FONTS */
 
 h4 {
-    font-size: 32px;
+    font-size: 40px;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: 16px;
@@ -62,7 +62,7 @@ h4 {
 }
 
 p1 {
-    font-size: 36px;
+    font-size: 32px;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: 10px;
@@ -92,6 +92,16 @@ p4 {
     margin-bottom: 10px; 
 }
 
+p5 {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px; 
+
+}
+
+
 /* IMAGES */
 
 img.image {
@@ -104,7 +114,7 @@ img.image-question {
     object-fit: cover;
     display: flex;
     width: 90%;
-    padding: 16px;
+    padding: 24px;
 }
 
 /* ""Findings" section cake containers */
@@ -138,6 +148,42 @@ img.image-question {
     height: 100%;
 }
 
+/* Persona aka "DAVE MILLER" containers */
+
+.bigcontainer-dave-lists {
+    display: flex;
+    height: 200px;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.container-title-dave {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+
+.container-text-dave {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    padding: 2px;
+}
+
+.container-lists-dave {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
 
 @media (max-width: 600px) {
 
@@ -166,6 +212,24 @@ img.image-question {
     .container-img {
         height: 40%;
         object-fit: contain;
+    }
+
+    /* DAVE MILLER */
+
+    .bigcontainer-dave-lists {
+        flex-direction: column;
+    }
+
+    .container-title-dave {
+        width: 100% !important;
+    }
+
+    .container-text-dave {
+        width: 100% !important;
+    }
+
+    .container-lists-dave {
+        width: 90% !important;
     }
 }
 
