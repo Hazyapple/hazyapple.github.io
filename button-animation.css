@@ -28,6 +28,16 @@
     z-index: -1;
 }
 
+@media (max-width: 600px) {
+    .button.visit.active::before {
+        left: 0;
+    }
+
+    .button.visit.active {
+        color: black;
+    }
+}
+
 .button.visit:hover::before {
     left: 0;
 
@@ -130,4 +140,3 @@
     color: #e9e9e9;
     font-weight: 200;
 }
-
