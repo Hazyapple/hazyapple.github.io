@@ -6,7 +6,7 @@
     text-align: center;
 
     cursor: pointer;
-    transition: color 0.3s;
+    transition: color 0.5s;
 }
 
 .button.visit:hover {
@@ -23,8 +23,7 @@
     height: 100%;
 
 
-    transition: left 0.5s;
-    /* Animation duration */
+    transition: left 0.8s;
     z-index: -1;
 }
 
