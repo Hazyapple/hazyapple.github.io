@@ -1,0 +1,190 @@
+body {
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+}
+
+header a {
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #09090B;
+    min-width: 400px;
+    max-width: 1100px;
+}
+
+.footer-style {
+    padding: 24px;
+}
+
+/* Text Boxes */
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-content: center;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+/* FONTS */
+
+h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    color: white;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    color: white;
+
+}
+
+
+
+p1 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p2 {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p3 {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px; 
+    color: white;
+}
+
+p4 {
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px; 
+    color: white;
+}
+
+p5 {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px; 
+    color: white;
+
+}
+
+/* IMAGES */
+
+img.image {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+}
+
+/* Quest window */
+
+.bigcontainer {
+    display: flex;
+    height: 500px;
+    width:90%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+.bigcontainer-left {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+.bigcontainer img {
+    display: flex;
+    height: 100%;
+}
+
+.bigcontainer-right {
+    width: 35%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 600px) {
+
+    .textbox {
+        width: 80% !important;
+    }
+
+    .bigcontainer {
+        flex-direction: column;
+        height: 1000px !important;
+        width: 90%;
+    }
+
+    .bigcontainer-left {
+        width: 40% !important;
+
+    }
+
+    .bigcontainer-right {
+        Height: 500px !important;
+        width: 40%!important;
+     }
+
+
+
+
+
+}
