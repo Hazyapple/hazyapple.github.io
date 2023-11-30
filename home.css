@@ -242,6 +242,14 @@ header a {
     color: #F365D4;
 }
 
+.bigcontainer.madragora h3 {
+    color: #4856ce;
+}
+
+.bigcontainer.mr-nothing h3 {
+    color: #AABE2C;
+}
+
 .paddingstyle1 {
     display: flex;
     flex-direction: column;

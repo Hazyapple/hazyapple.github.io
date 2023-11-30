@@ -64,6 +64,16 @@
     background-color: #F365D4;
 }
 
+.madragora .button.visit::before {
+    background-color: #343FA9;
+}
+
+.mr-nothing .button.visit::before {
+    background-color: #AABE2C;
+}
+
+
+
 
 
 /* Visit - border */
@@ -77,6 +87,8 @@
 .spacer .button.visit {
     border-color: #F4BB2A;
 }
+
+
 
 
 /* Visit - border (.bigcontainer) */
@@ -101,6 +113,14 @@
 
 .bigcontainer.match3 .button.visit {
     border-color: #F365D4;
+}
+
+.bigcontainer.madragora .button.visit {
+    border-color: #343FA9;
+}
+
+.bigcontainer.mr-nothing .button.visit {
+    border-color: #AABE2C;
 }
 
 /*  */
