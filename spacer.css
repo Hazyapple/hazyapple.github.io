@@ -140,6 +140,16 @@ img.image-main {
     justify-content: space-evenly;
 }
 
+.bigcontainer-reveresed {
+    display: flex;
+    height: 600px;
+    height: 100%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+
 .bigcontainer-left {
     height: 100%;
     width: 40%;
@@ -155,6 +165,12 @@ img.image-main {
     height: 100%;
 }
 
+.bigcontainer-reveresed img {
+    display: flex;
+    width: 80%;
+    padding: 8px;
+    height: 100%;
+}
 .bigcontainer-right {
     height: 100%;
     width: 40%;
@@ -217,6 +233,11 @@ img.image-main {
 
     .bigcontainer {
         flex-direction: column;
+        width: 90%;
+    }
+
+    .bigcontainer-reveresed {
+        flex-direction: column-reverse;
         width: 90%;
     }
 
