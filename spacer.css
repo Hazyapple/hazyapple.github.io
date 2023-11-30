@@ -45,6 +45,15 @@ main {
     flex-direction: column;
     width: 50%;
     align-self: flex-start;
+    padding: 24px;
+    margin-left: 100px;
+}
+
+.textbox-margin {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-start;
     margin-bottom: 24px;
     padding: 40px;
 }
@@ -97,9 +106,9 @@ img.image {
 }
 
 img.image-baner {
-    width: 50%;
+    width: 55%;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     padding: 40px;
     margin-top: 24px;
     
@@ -120,16 +129,64 @@ img.image-main {
     padding: 4px;
 }
 
+/* Quest window */
+
+.bigcontainer {
+    display: flex;
+    height: 600px;
+    height: 100%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+.bigcontainer-left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.bigcontainer img {
+    display: flex;
+    width: 80%;
+    padding: 8px;
+    height: 100%;
+}
+
+.bigcontainer-right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.bigcontainer-right p2 {
+    padding-bottom: 24px;
+}
+
+
+
+
+
 
 
 @media (max-width: 600px) {
 
     .textbox {
         width: 80% !important;
+        align-self: center !important;
+        margin-left: 0px;
     }
 
-    img.baner {
-        width: 80% !important;
+    img.image-baner {
+        width: 90% !important;
+        align-self: center;
+        margin-top: 40px;
     }
 
     img.main {
@@ -137,6 +194,24 @@ img.image-main {
     }
 
     img.image-opendyslecxic {
+        width: 90% !important;
+    }
+
+    .bigcontainer {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .bigcontainer-left {
+        width: 86% !important;
+
+    }
+
+    .bigcontainer-right {
+        width: 86%!important;
+     }
+
+     img.image-final {
         width: 90% !important;
     }
 
