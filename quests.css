@@ -129,6 +129,13 @@ img.image {
     width: 100%;
 }
 
+img.image-final {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
 /* Quest window */
 
 .bigcontainer {
@@ -150,6 +157,8 @@ img.image {
 .bigcontainer img {
     display: flex;
     height: 100%;
+    width: 100%;
+    padding: 8px;
 }
 
 .bigcontainer-right {
@@ -174,16 +183,17 @@ img.image {
     }
 
     .bigcontainer-left {
-        width: 40% !important;
+        width: 86% !important;
 
     }
 
     .bigcontainer-right {
-        Height: 500px !important;
-        width: 40%!important;
+        width: 86%!important;
      }
 
-
+     img.image-final {
+        width: 90% !important;
+    }
 
 
 
