@@ -246,9 +246,20 @@ header a {
     color: #4856ce;
 }
 
+.bigcontainer.madragora p5 {
+    color: #B5B5B5;
+}
+
 .bigcontainer.mr-nothing h3 {
     color: #AABE2C;
 }
+
+.bigcontainer.mr-nothing p5 {
+    color: #B5B5B5;
+}
+
+
+
 
 .paddingstyle1 {
     display: flex;
