@@ -34,3 +34,6 @@ function throttle(func, limit) {
 var throttledCheckVisibility = throttle(checkVisibility, 100);
 
 window.addEventListener('scroll', throttledCheckVisibility);
+
+// Just for init
+setTimeout(checkVisibility, 0)
