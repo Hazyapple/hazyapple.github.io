@@ -117,6 +117,20 @@ img.image-question {
     padding: 24px;
 }
 
+img.image-flow-chart {
+    object-fit: cover;
+    display: flex;
+    width: 50%;
+    padding: 24px;
+}
+
+img.image-wireframes {
+    object-fit: cover;
+    display: flex;
+    width: 50%;
+    padding: 8px;
+}
+
 /* ""Findings" section cake containers */
 
 .bigcontainer {
@@ -152,7 +166,7 @@ img.image-question {
 
 .bigcontainer-dave-lists {
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 90%;
     overflow: hidden;
     margin-bottom: 8px;
@@ -175,15 +189,29 @@ img.image-question {
 }
 
 .container-lists-dave {
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
+/* Wireframes (Images) */
 
+.bigcontainer-wireframes {
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    overflow: hidden;
+    margin: 16px;
+}
 
+.bigcontainer-wireframes img {
+    width: 45%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
 
 @media (max-width: 600px) {
 
@@ -218,6 +246,7 @@ img.image-question {
 
     .bigcontainer-dave-lists {
         flex-direction: column;
+        Height: 100% !important;
     }
 
     .container-title-dave {
@@ -230,6 +259,14 @@ img.image-question {
 
     .container-lists-dave {
         width: 90% !important;
+    }
+
+    /* Wireframe Images */
+    .bigcontainer-wireframes {
+        flex-direction: column;
+        Height: 100% !important;
+        Height: 200px !important;
+        width: 100% !important;
     }
 }
 
