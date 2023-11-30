@@ -42,35 +42,10 @@
 }
 
 
+/* Visit Before - background color */
+
 .beakers-bog .button.visit::before {
     background-color: #D084FF;
-}
-
-
-.project-container.beakers-bog .button.visit {
-    border-color: #D084FF;
-}
-
-/* This is the new pink border for file home.html  */
-.bigcontainer.beakers-bog .button.visit {
-    border-color: #D084FF;
-}
-
-/* This is the new green border for file home.html  */
-.bigcontainer.quiz-wiz .button.visit {
-    border-color: #7CE593;
-}
-
-/* This is the new blue border for the file home.html */
-.bigcontainer.quests .button.visit {
-    border-color: #7AD3EF;
-}
-
-
-.button.visit {
-    border-width: 2px;
-    color: #e9e9e9;
-    font-weight: 200;
 }
 
 .quiz-wiz .button.visit::before {
@@ -81,6 +56,58 @@
     background-color: #7AD3EF;
 }
 
+.spacer .button.visit::before {
+    background-color: #F4BB2A;
+}
+
+.match3 .button.visit::before {
+    background-color: #F365D4;
+}
+
+
+
+/* Visit - border */
+
+
+
 .quests .button.visit {
     border-color: #7AD3EF;
 }
+
+.spacer .button.visit {
+    border-color: #F4BB2A;
+}
+
+
+/* Visit - border (.bigcontainer) */
+
+.bigcontainer.beakers-bog .button.visit {
+    border-color: #D084FF;
+}
+
+
+.bigcontainer.quiz-wiz .button.visit {
+    border-color: #7CE593;
+}
+
+
+.bigcontainer.quests .button.visit {
+    border-color: #7AD3EF;
+}
+
+.bigcontainer.spacer .button.visit {
+    border-color: #F4BB2A;
+}
+
+.bigcontainer.match3 .button.visit {
+    border-color: #F365D4;
+}
+
+/*  */
+
+.button.visit {
+    border-width: 2px;
+    color: #e9e9e9;
+    font-weight: 200;
+}
+

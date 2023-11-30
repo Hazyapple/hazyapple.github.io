@@ -234,6 +234,14 @@ header a {
     color: #7AD3EF;
 }
 
+.bigcontainer.spacer h3 {
+    color: #F4BB2A;
+}
+
+.bigcontainer.match3 h3 {
+    color: #F365D4;
+}
+
 .paddingstyle1 {
     display: flex;
     flex-direction: column;
