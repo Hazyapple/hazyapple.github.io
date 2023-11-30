@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+}
+
+header a {
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(241, 241, 255);
+    min-width: 400px;
+    max-width: 1100px;
+}
+
+.footer-style {
+    padding: 24px;
+}
+
+/* Text Boxes */
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-content: center;
+    margin-bottom: 24px;
+}
+
+
+/* FONTS */
+
+h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+
+
+
+p1 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p2 {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+/* IMAGES */
+
+img.image {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+}
+
+img.image-icons {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+img.image-opendyslecxic {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+
+img.image-main {
+    width: 95%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .textbox {
+        width: 80% !important;
+    }
+
+    img.icons {
+        width: 90% !important;
+    }
+
+    img.main {
+        width: 95% !important;
+    }
+
+    img.image-opendyslecxic {
+        width: 90% !important;
+    }
+
+}
