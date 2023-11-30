@@ -169,6 +169,24 @@ img.image-main {
     padding-bottom: 24px;
 }
 
+.bigcontainer-right-icons {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.bigcontainer-left-icons {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
 
 
 
@@ -214,5 +232,17 @@ img.image-main {
      img.image-final {
         width: 90% !important;
     }
+
+    .bigcontainer-left-icons {
+        width: 86% !important;
+
+    }
+
+    .bigcontainer-right-icons {
+        width: 86%!important;
+        align-self: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+     }
 
 }
