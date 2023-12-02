@@ -172,6 +172,7 @@ img.image-final {
 @media (max-width: 600px) {
 
     .textbox {
+        margin-top: 24px;
         width: 80% !important;
     }
 
@@ -179,6 +180,7 @@ img.image-final {
         flex-direction: column;
         height: 1000px !important;
         width: 90%;
+        justify-content: none !important;
     }
 
     .bigcontainer-left {
