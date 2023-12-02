@@ -103,6 +103,14 @@ img.image-icons {
     margin-bottom: 16px;
 }
 
+img.image-screens {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
 img.image-opendyslecxic {
     width: 70%;
     display: flex;
@@ -112,11 +120,51 @@ img.image-opendyslecxic {
 
 
 img.image-main {
-    width: 95%;
+    width: 70%;
     display: flex;
     align-self: center;
     padding: 4px;
 }
+
+.bigcontainer {
+    display: flex;
+    height: 600px;
+    height: 100%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+.bigcontainer-left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.bigcontainer-right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.bigcontainer-right p2 {
+    padding-bottom: 24px;
+    padding-left: 4px;
+}
+
+.bigcontainer img {
+    display: flex;
+    width: 80%;
+    padding: 8px;
+    height: 100%;
+}
+
 
 
 
@@ -126,16 +174,40 @@ img.image-main {
         width: 80% !important;
     }
 
-    img.icons {
+    img.image-icons {
+        width: 60% !important;
+        align-self: center;
+    }
+
+    img.screens {
         width: 90% !important;
     }
 
-    img.main {
+    img.image-main {
         width: 95% !important;
     }
 
     img.image-opendyslecxic {
         width: 90% !important;
     }
+
+    .bigcontainer {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .bigcontainer-left {
+        width: 90% !important;
+        justify-content: center;
+        align-self: center;
+
+
+    }
+
+    .bigcontainer-right {
+        width: 90% !important;
+        justify-content: center;
+        align-self: center;
+     }
 
 }
