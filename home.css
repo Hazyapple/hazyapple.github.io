@@ -21,14 +21,13 @@ a {
     cursor: pointer;
 }
 
-/* img.underline-1 {
+img.underline-1 {
     object-fit: cover;
     display: flex;
     width: 80%;
     padding-left: 32px;
     padding-bottom: 80px;
-    opacity: 100%px;
-} */
+}
 
 img.underline-2 {
     object-fit: cover;
@@ -330,12 +329,7 @@ header a {
 
     .intro {
         width: 80%;
-        margin: 20px 0
-    }
-
-    .intro h2 {
-        width: 80%;
-        padding-left: 40px;
+        
     }
 
     .intro h10 {
@@ -343,12 +337,17 @@ header a {
         padding-left: 40px;
     }
 
-    /* img.underline-1 {
-        width: 60% !important;
+        .intro h2 {
+        width: 80%;
         padding-left: 40px;
+    }
+
+    img.underline-1 {
+        width: 60% !important;
+        padding-left: 8px;
         opacity: 0px !important;
 
-    } */
+    } 
 
     img.underline-2 {
         width: 60% !important;
