@@ -45,7 +45,7 @@ main {
     flex-direction: column;
     width: 90%;
     align-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 
@@ -53,7 +53,7 @@ main {
 /* FONTS */
 
 h4 {
-    font-size: 40px;
+    font-size: 24px;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: 16px;
@@ -62,14 +62,14 @@ h4 {
 }
 
 p1 {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 p2 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Poppins;
     font-weight: 400;
     margin: 0;
@@ -77,7 +77,7 @@ p2 {
 }
 
 p3 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 700;
     margin: 0;
@@ -113,15 +113,15 @@ img.image {
 img.image-question {
     object-fit: cover;
     display: flex;
-    width: 90%;
+    width: 60%;
     padding: 24px;
 }
 
 img.image-flow-chart {
     object-fit: cover;
     display: flex;
-    width: 50%;
-    padding: 24px;
+    width: 25%;
+    padding: 8px;
 }
 
 img.image-wireframes {
@@ -135,7 +135,7 @@ img.image-wireframes {
 
 .bigcontainer {
     display: flex;
-    height: 200px;
+    height: 100px;
     width: 90%;
     overflow: hidden;
     margin-bottom: 24px;
@@ -164,12 +164,19 @@ img.image-wireframes {
 
 /* Persona aka "DAVE MILLER" containers */
 
-.bigcontainer-dave-lists {
+.bigcontainer-dave {
     display: flex;
-    height: 300px;
     width: 90%;
     overflow: hidden;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+.bigcontainer-dave-lists {
+    display: flex;
+    /* height: 300px; */
+    width: 90%;
+    overflow: hidden;
+    /* margin-bottom: 8px; */
 }
 
 .container-title-dave {
