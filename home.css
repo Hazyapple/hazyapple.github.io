@@ -84,7 +84,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 400;
     margin: 0;
@@ -267,7 +267,7 @@ header a {
 }
 
 .bigcontainer.quiz-wiz h3 {
-    color: #7CE593;
+    color: #52D9AE;
 }
 
 .bigcontainer.quests h3 {

@@ -60,7 +60,7 @@
 }
 
 .quiz-wiz .button.visit::before {
-    background-color: #7CE593;
+    background-color: #21C994;
 }
 
 .quests .button.visit::before {
@@ -102,6 +102,8 @@
 
 
 
+
+
 /* Visit - border (.bigcontainer) */
 
 .bigcontainer.beakers-bog .button.visit {
@@ -110,7 +112,7 @@
 
 
 .bigcontainer.quiz-wiz .button.visit {
-    border-color: #7CE593;
+    border-color: #41D0A2;
 }
 
 
