@@ -203,6 +203,12 @@ img.image-wireframes {
     padding: 20px;
 }
 
+
+iframe#figma-embed {
+    width: 50%;
+    min-height: 800px;
+}
+
 /* Wireframes (Images) */
 
 .bigcontainer-wireframes {
@@ -254,7 +260,7 @@ img.image-wireframes {
 
     .bigcontainer-dave-lists {
         flex-direction: column;
-        Height: 100% !important;
+        height: 100% !important;
     }
 
     .container-title-dave {
@@ -271,10 +277,27 @@ img.image-wireframes {
 
     /* Wireframe Images */
     .bigcontainer-wireframes {
-        flex-direction: column;
-        Height: 100% !important;
-        Height: 200px !important;
-        width: 100% !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100% !important;
+        width: 90% !important;
+    }
+
+    .image-wireframes {
+        flex: 1; /* Allows the container to grow and fill the space */
+        min-width: calc(50% - 20px); /* Adjust '20px' to increase/decrease the space between images */
+        text-align: center; /* Centers the image within the container */
+        margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+    }
+
+    .bigcontainer-wireframes img {
+        max-width: 100%; /* Ensures the image scales down if necessary, to fit its container */
+        height: auto; /* Maintains the image's aspect ratio */
+    }
+
+    iframe#figma-embed {
+        width: 90%;
+        min-height: 600px;
     }
 }
 
